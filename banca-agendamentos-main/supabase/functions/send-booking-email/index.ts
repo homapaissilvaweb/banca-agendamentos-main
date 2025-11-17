@@ -1,4 +1,4 @@
-import { serve } from "std/http/server.ts";
+import { serve } from "https://deno.land/std@0.208.0/http/server.ts";
 import { z } from "zod";
 
 const corsHeaders = {
