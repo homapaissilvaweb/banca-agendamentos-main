@@ -9,14 +9,16 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center">
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.3) 100%), url(${heroImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
+ <div
+  className="absolute inset-0 z-0"
+  style={{
+    backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.2) 100%), url(${heroImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+/>
+
+
       
       <div className="container mx-auto px-4 z-10 pt-20">
         <div className="max-w-2xl">
